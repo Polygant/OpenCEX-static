@@ -14,10 +14,22 @@
           </p>
           <div
             class="socials">
-            <a v-if="this.$config.axios.twitter" :href="this.$config.axios.twitter" class="social-tw"><img src="/img/1.png" /></a>
-            <a v-if="this.$config.axios.telegram" :href="this.$config.axios.telegram" class="social-tg"><img src="/img/2.png" /></a>
-            <a v-if="this.$config.axios.facebook" :href="this.$config.axios.facebook" class="social-fb"><img src="/img/3.png" /></a>
-            <a v-if="this.$config.axios.linkedin" :href="this.$config.axios.linkedin" class="social-ld"><img src="/img/4.png" /></a>
+            <a v-if="this.$config.axios.twitter" :href="`https://twitter.com/${this.$config.axios.twitter}`" class="social-tw">
+              <img src="/img/1.png" />
+              <span>{{this.$config.axios.twitter}}</span>
+            </a>
+            <a v-if="this.$config.axios.telegram" :href="`https://t.me/${this.$config.axios.telegram}`" class="social-tg">
+              <img src="/img/2.png" />
+              <span>{{this.$config.axios.telegram}}</span>
+            </a>
+            <a v-if="this.$config.axios.facebook" :href="`https://facebook.com/${this.$config.axios.facebook}`" class="social-fb">
+              <img src="/img/3.png" />
+              <span>{{this.$config.axios.facebook}}</span>
+            </a>
+            <a v-if="this.$config.axios.linkedin" :href="`https://linkedin.com/company/${this.$config.axios.linkedin}`" class="social-ld">
+              <img src="/img/4.png" />
+              <span>{{this.$config.axios.linkedin}}</span>
+            </a>
           </div>
         </div>
       </div>
@@ -56,7 +68,17 @@
   padding-right: 60px;
   padding-top: 0;
 }
-
+.socials a {
+  position: relative;
+}
+.socials a span {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  margin-top: -13px;
+  font-size: 16px;
+}
 @media (max-width: 900px) {
   body h3 {
     margin-bottom: 12px;
@@ -85,6 +107,7 @@
     margin-bottom: 12px;
     overflow: hidden;
     border-radius: 5px;
+    position: relative;
   }
   .block5 {
     padding-bottom: 35px;
@@ -101,5 +124,10 @@
   .social-ld {
     background: #6588C9;
   }
+  .socials a span {
+    margin-top: -10px;
+    font-size: 12px;
+  }
 }
+
 </style>

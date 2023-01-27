@@ -9,6 +9,7 @@
           <div class="rights">All Rights Reserved</div>
           <div class="footer__socials-container">
             <a
+              v-if="this.$config.axios.facebook && this.$config.axios.facebook !== ''"
               class="footer__social-item"
               :href="`https://facebook.com/${this.$config.axios.facebook}`"
             >
@@ -16,6 +17,7 @@
               {{ this.$config.axios.facebook }}
             </a>
             <a
+              v-if="this.$config.axios.twitter && this.$config.axios.twitter !== ''"
               class="footer__social-item"
               :href="`https://twitter.com/${this.$config.axios.twitter}`"
             >
@@ -23,6 +25,7 @@
               {{ this.$config.axios.twitter }}
             </a>
             <a
+              v-if="this.$config.axios.telegram && this.$config.axios.telegram !== ''"
               class="footer__social-item"
               :href="`https://t.me/${this.$config.axios.telegram}`"
             >
@@ -30,6 +33,7 @@
               {{ this.$config.axios.telegram }}
             </a>
             <a
+              v-if="this.$config.axios.linkedin && this.$config.axios.linkedin !== ''"
               class="footer__social-item"
               :href="`https://linkedin.com/company/${this.$config.axios.linkedin}`"
             >
