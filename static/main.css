@@ -1,0 +1,138 @@
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a, button {
+  cursor: revert;
+}
+
+ol, ul, menu {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input, textarea {
+  -webkit-user-select: auto;
+}
+
+textarea {
+  white-space: revert;
+}
+
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+
+::placeholder {
+  color: unset;
+}
+
+:where([hidden]) {
+  display: none;
+}
+
+:where([contenteditable]:not([contenteditable="false"])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  -webkit-user-select: auto;
+}
+
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+body {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  background: #FFF;
+  font-weight: 400;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.table td, .table th,
+.table thead th {
+  border: none !important;
+}
+
+.content {
+  width: 1400px;
+  max-width: 1540px;
+  position: relative;
+  margin: 0 auto;
+}
+
+body h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+}
+
+body h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+}
+
+body h2 span {
+  color: #6053C6;
+  font-weight: 700;
+}
+
+body h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+}
+
+.btn {
+  height: 52px;
+  background: #6352CD;
+  border-radius: 5px;
+  font-weight: 400;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 39px;
+  display: inline-block;
+}
+
+@media (max-width: 1440px) {
+  .content {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  body h1, body h2 {
+    font-size: 32px !important;
+    line-height: 40px;
+    font-weight: 700 !important;
+  }
+  body h3 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+}

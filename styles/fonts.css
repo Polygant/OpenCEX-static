@@ -1,0 +1,84 @@
+ 
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('~/fonts/OpenSansRegular/OpenSansRegular.eot');
+  src: url('~/fonts/OpenSansRegular/OpenSansRegular.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+    url('~/fonts/OpenSansRegular/OpenSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: 700;
+  font-style: normal;
+  src: url('~/fonts/OpenSansBold/OpenSans-Bold.eot');
+  src: url('~/fonts/OpenSansBold/OpenSans-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/fonts/OpenSansBold/OpenSans-Bold.woff') format('woff'),
+    url('~/fonts/OpenSansBold/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: 800;
+  font-style: normal;
+  src: url('~/fonts/OpenSansExtraBold/OpenSansExtraBold.eot');
+  src: url('~/fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/fonts/OpenSansExtraBold/OpenSansExtraBold.woff') format('woff'),
+    url('~/fonts/OpenSansExtraBold/OpenSansExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: 100;
+  font-style: normal;
+  src: url('~/fonts/OpenSansLight/OpenSansLight.eot');
+  src: url('~/fonts/OpenSansLight/OpenSansLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/fonts/OpenSansLight/OpenSansLight.woff') format('woff'),
+    url('~/fonts/OpenSansLight/OpenSansLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: 100;
+  font-style: italic;
+  src: url('~/fonts/OpenSansLightItalic/OpenSansLightItalic.eot');
+  src: url('~/fonts/OpenSansLightItalic/OpenSansLightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('~/fonts/OpenSansLightItalic/OpenSansLightItalic.woff') format('woff'),
+    url('~/fonts/OpenSansLightItalic/OpenSansLightItalic.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Icomoon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('~/fonts/icomoon/icomoon.eot');
+  src: url('~/fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('~/fonts/icomoon/icomoon.woff') format('woff'),
+    url('~/fonts/icomoon/icomoon.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('~/fonts/ProximaNova/Proxima Nova Thin.otf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('~/fonts/ProximaNova/Proxima Nova Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('~/fonts/ProximaNova/Proxima Nova Regular.otf');
+  font-weight: 500;
+}
