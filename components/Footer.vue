@@ -65,7 +65,7 @@
             <div class="footer-links-title">
               {{ $t('products') }}
             </div>
-            <a href="/account/quick-buy-sell">{{ $t('fast') }}</a>
+            <a href="/account/quick-swap">{{ $t('fast') }}</a>
             <a href="/account/trade">{{ $t('exchange') }}</a>
             <a href="/account/wallet">{{ $t('wallet') }}</a>
           </div>
