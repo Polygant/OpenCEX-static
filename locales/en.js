@@ -41,7 +41,7 @@ export default {
   menu: 'Menu',
   wallet: 'Wallet',
   exchange: 'Exchange',
-  quickBuySell: 'Quick Buy and Sell',
+  quickBuySell: 'Quick Swap',
   fees: 'Fees',
   vol24h: 'Volume 24H',
   errors: {
@@ -76,7 +76,7 @@ export default {
   last_price: 'Last price',
   change_24: '24h Change',
   chart: 'Chart',
-  fast: 'Quick BUY & SELL',
+  fast: 'Quick Swap',
   settings: 'Settings',
   agreement: 'User Agreement',
   risks: 'Risk warning',
