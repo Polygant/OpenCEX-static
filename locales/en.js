@@ -81,5 +81,6 @@ export default {
   agreement: 'User Agreement',
   risks: 'Risk warning',
   price24h: 'Change 24h',
-  price: 'Price'
+  price: 'Price',
+  built_by: "Built using OpenCEX platform by Polygant",
 }
